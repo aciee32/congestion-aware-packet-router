@@ -1,0 +1,13 @@
+# Simulation executables and generated files
+*.vvp
+*.out
+*.log
+*.tmp
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Temporary folders
+.vscode/

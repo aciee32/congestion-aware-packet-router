@@ -1,0 +1,319 @@
+$date
+	Sat Nov 14 00:41:39 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module router_controller_tb $end
+$var wire 1 ! valid $end
+$var wire 2 " selected_queue [1:0] $end
+$var wire 1 # rd2 $end
+$var wire 1 $ rd1 $end
+$var wire 1 % rd0 $end
+$var reg 1 & clk $end
+$var reg 3 ' count0 [2:0] $end
+$var reg 3 ( count1 [2:0] $end
+$var reg 3 ) count2 [2:0] $end
+$var reg 1 * empty0 $end
+$var reg 1 + empty1 $end
+$var reg 1 , empty2 $end
+$var reg 1 - mode $end
+$var reg 1 . rst $end
+$var reg 1 / transmit_done $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 3 0 count0 [2:0] $end
+$var wire 3 1 count1 [2:0] $end
+$var wire 3 2 count2 [2:0] $end
+$var wire 1 * empty0 $end
+$var wire 1 + empty1 $end
+$var wire 1 , empty2 $end
+$var wire 1 - mode $end
+$var wire 1 . rst $end
+$var wire 1 / transmit_done $end
+$var wire 1 ! valid $end
+$var wire 2 3 selected_queue [1:0] $end
+$var wire 1 4 rr_valid $end
+$var wire 2 5 rr_selected [1:0] $end
+$var wire 1 6 rr_rd2 $end
+$var wire 1 7 rr_rd1 $end
+$var wire 1 8 rr_rd0 $end
+$var wire 1 # rd2 $end
+$var wire 1 $ rd1 $end
+$var wire 1 % rd0 $end
+$var wire 1 9 ca_valid $end
+$var wire 2 : ca_selected [1:0] $end
+$var wire 1 ; ca_rd2 $end
+$var wire 1 < ca_rd1 $end
+$var wire 1 = ca_rd0 $end
+$scope module ca_scheduler $end
+$var wire 1 & clk $end
+$var wire 3 > count0 [2:0] $end
+$var wire 3 ? count1 [2:0] $end
+$var wire 3 @ count2 [2:0] $end
+$var wire 1 * empty0 $end
+$var wire 1 + empty1 $end
+$var wire 1 , empty2 $end
+$var wire 1 . rst $end
+$var wire 1 A transmit_done $end
+$var reg 3 B min_count [2:0] $end
+$var reg 2 C priority [1:0] $end
+$var reg 1 = rd0 $end
+$var reg 1 < rd1 $end
+$var reg 1 ; rd2 $end
+$var reg 2 D selected_queue [1:0] $end
+$var reg 1 9 valid $end
+$upscope $end
+$scope module rr_scheduler $end
+$var wire 1 & clk $end
+$var wire 1 * empty0 $end
+$var wire 1 + empty1 $end
+$var wire 1 , empty2 $end
+$var wire 1 . rst $end
+$var wire 1 E transmit_done $end
+$var reg 2 F priority [1:0] $end
+$var reg 1 8 rd0 $end
+$var reg 1 7 rd1 $end
+$var reg 1 6 rd2 $end
+$var reg 2 G selected_queue [1:0] $end
+$var reg 1 4 valid $end
+$upscope $end
+$upscope $end
+$scope task transmit $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 G
+b0 F
+0E
+b0 D
+b0 C
+b0 B
+0A
+b0 @
+b0 ?
+b0 >
+1=
+0<
+0;
+b0 :
+19
+18
+07
+06
+b0 5
+14
+b0 3
+b0 2
+b0 1
+b0 0
+0/
+1.
+0-
+0,
+0+
+0*
+b0 )
+b0 (
+b0 '
+0&
+1%
+0$
+0#
+b0 "
+1!
+$end
+#5000
+1&
+#10000
+b1 :
+b1 D
+1<
+b1 B
+19
+0=
+0&
+b10 )
+b10 2
+b10 @
+b1 (
+b1 1
+b1 ?
+b11 '
+b11 0
+b11 >
+0.
+#12000
+1E
+1/
+#15000
+b1 "
+b1 3
+1$
+0%
+b1 5
+b1 G
+17
+14
+08
+b1 F
+1&
+#16000
+0E
+0/
+#20000
+1E
+1/
+0&
+#25000
+1#
+b10 "
+b10 3
+0$
+16
+b10 5
+b10 G
+14
+07
+b10 F
+1&
+#26000
+0E
+0/
+#30000
+1E
+1/
+0&
+#35000
+1%
+b0 "
+b0 3
+0#
+18
+b0 5
+b0 G
+14
+06
+b0 F
+1&
+#36000
+0E
+0/
+#38000
+0%
+1$
+b1 "
+b1 3
+1-
+#40000
+1A
+1/
+0&
+#45000
+b1 B
+b1 :
+b1 D
+19
+1<
+b10 C
+1&
+#46000
+0A
+0/
+#50000
+1A
+1/
+0&
+#55000
+1&
+#56000
+0A
+0/
+#60000
+1A
+1/
+0&
+#65000
+1&
+#66000
+0A
+0/
+#68000
+1#
+b10 "
+b10 3
+0$
+1;
+b1 B
+b10 :
+b10 D
+19
+0<
+14
+18
+b1 )
+b1 2
+b1 @
+1+
+#70000
+1A
+1/
+0&
+#75000
+b1 B
+b10 :
+b10 D
+19
+1;
+b0 C
+1&
+#76000
+0A
+0/
+#80000
+1A
+1/
+0&
+#85000
+1&
+#86000
+0A
+0/
+#90000
+1A
+1/
+0&
+#95000
+1&
+#96000
+0A
+0/
+#98000
+b0 "
+b0 3
+0!
+0#
+b111 B
+b0 :
+b0 D
+09
+0;
+04
+08
+1,
+1*
+#100000
+0&
+#105000
+1&
+#110000
+0&
+#112000
